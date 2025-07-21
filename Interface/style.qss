@@ -1,0 +1,96 @@
+/* Stil general */
+QWidget {
+    background-color: #f0f2f5;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 14px;
+}
+
+/* Titlu aplicație */
+QLabel#title_label {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2c3e50;
+    padding: 15px;
+    border-bottom: 2px solid #3498db;
+    qproperty-alignment: AlignCenter;
+}
+
+
+/* Butoane - Stil modern și intuitiv */
+QPushButton {
+    min-width: 150px;
+    padding: 10px 20px;
+    border-radius: 6px;
+    margin: 8px;
+    font-weight: bold;
+    border: none;
+}
+
+/* Deschidere cameră */
+QPushButton#start_button {
+    background-color: #27ae60;
+    color: white;
+}
+QPushButton#start_button:hover {
+    background-color: #2ecc71;
+}
+
+/* Închidere cameră */
+QPushButton#stop_button {
+    background-color: #e74c3c;
+    color: white;
+}
+QPushButton#stop_button:hover {
+    background-color: #c0392b;
+}
+
+/* Grafic */
+QPushButton#graph_button {
+    background-color: #3498db;
+    color: white;
+}
+QPushButton#graph_button:hover {
+    background-color: #2980b9;
+}
+
+/* Bară de progres - Subțire și elegantă */
+QProgressBar {
+    height: 12px;
+    border-radius: 6px;
+    background-color: #ecf0f1;
+    text-align: center;
+}
+
+QProgressBar::chunk {
+    background-color: #3498db;
+    border-radius: 6px;
+}
+
+/* Etichete */
+QLabel {
+    font-size: 16px;
+    margin: 5px;
+}
+
+/* Cameră - Vizual central și evidențiat */
+QLabel#camera_label {
+    background-color: #000;
+    border: 2px solid #3498db;
+    border-radius: 8px;
+}
+
+/* GroupBox pentru secțiunea de statistici */
+QGroupBox {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+QGroupBox::title {
+    color: #2c3e50;
+    font-weight: bold;
+    subcontrol-origin: margin;
+    left: 10px;
+    padding: 0 5px;
+}

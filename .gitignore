@@ -1,0 +1,11 @@
+*.pth
+*.pt
+
+!ResNet101-Model/
+!ResNet101-Model/*.txt
+
+__pycache__/
+.ipynb_checkpoints/
+
+# Ignorăm fișierul mare
+ResNet101-Model/best_waste_classifier_13_resnet101.pth
